@@ -1,0 +1,4 @@
+ctrl + d - duplication row
+ctrl + shift + u - change register
+/*message*/ - comment
+ctrl + enter - run command
