@@ -1,0 +1,12 @@
+Parameters passing in stored procedure
+	An IN parameter passes a value into a procedure.
+	The procedure might modify the value, but the modification is not visible to the caller
+	when the procedure returns.
+
+	An OUT parameter passes a value from the procedure back to
+	the caller. Its initial value is NULL within the procedure, and its value is visible to
+	the caller when the procedure returns.
+
+	An INOUT parameter is initialized by the caller,
+	can be modified by the procedure, and any change made by the procedure is visible to the
+	caller when the procedure returns.

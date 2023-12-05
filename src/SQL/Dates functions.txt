@@ -1,0 +1,13 @@
+select now();
+select curdate();
+select curtime();
+
+select date_add(now(), INTERVAL 2 DAY);
+select date_add(now(), INTERVAL 2 YEAR);
+select date_sub(now(), INTERVAL 2 YEAR);
+
+select date_format(now(), '%b %d %Y %h:%i %p');
+
+SELECT DATE_FORMAT(NOW(),'%m-%d-%Y');
+SELECT DATE_FORMAT(NOW(),'%d %b %y');
+SELECT DATE_FORMAT(NOW(),'%d %b %Y %Tclients:%f');

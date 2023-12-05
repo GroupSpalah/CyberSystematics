@@ -1,0 +1,15 @@
+ALTER TABLE cars
+ADD count_doors INT DEFAULT 4;
+
+ALTER TABLE cars
+DROP COLUMN count_doors;
+
+ALTER TABLE cars
+MODIFY COLUMN price FLOAT;
+
+SELECT *, IF(price > 40000 OR model = 'A5',
+'Good', 'Bad') AS  info
+FROM cars;
+
+SELECT *, IF(price > 60000, 'Good', 'Bad') AS  info
+FROM cars;
