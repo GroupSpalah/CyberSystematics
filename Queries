@@ -1,0 +1,2 @@
+SELECT * FROM customers WHERE CustomerNo = 1 AND fName = 'Анатолій';
+SELECT * FROM customers WHERE fName = 'Віктор' AND lName = 'Дурнєв';
