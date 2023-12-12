@@ -1,4 +1,4 @@
-package ls_12_23;
+package ls_12_23.ls_09_12_23;
 
 public class Task {
 

@@ -1,4 +1,4 @@
-package ls_12_23.jdbc;
+package ls_12_23.ls_09_12_23.jdbc;
 
 import java.io.IOException;
 import java.nio.file.Files;
